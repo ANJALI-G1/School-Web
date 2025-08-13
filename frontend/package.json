@@ -12,10 +12,16 @@
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "@tailwindcss/vite": "^4.1.11",
+    "axios": "^1.11.0",
+    "daisyui": "^5.0.50",
     "motion": "^12.23.9",
     "react": "^19.1.0",
+    "react-confirm-alert": "^3.0.6",
     "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
     "react-icons": "^5.5.0",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-router-dom": "^7.7.1",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
