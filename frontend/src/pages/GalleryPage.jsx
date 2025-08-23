@@ -27,7 +27,7 @@ const GalleryPage = () => {
   const fetchImages = useCallback(async (pageNum = 1) => {
     try {
       setIsLoading(true);
-      const response = await axios.get(`/gallery?page=${pageNum}&limit=${ITEMS_PER_PAGE}`);
+      const response = await axios.get( `https://msvp-school.onrender.com/gallery?page=${pageNum}&limit=${ITEMS_PER_PAGE}`);
       const newImages = response.data.data.sort((a, b) => new Date(b.date) - new Date(a.date));
       
       if (pageNum === 1) {
