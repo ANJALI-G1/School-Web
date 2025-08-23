@@ -11,7 +11,7 @@ const app=express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/gallery',galleryRoutes);
+app.use('/gallery',galleryRoutes);
 app.use('/api/admin', adminRoutes);
 
 const connectDB = async () => {
